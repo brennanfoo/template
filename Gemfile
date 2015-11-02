@@ -10,13 +10,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
-# Use SCSS for stylesheets
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
   gem 'web-console'
   gem 'spring'
-
 end
 
 group :test do
