@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '4.1.8'
+gem 'rails',        '4.1.8'
+gem 'bcrypt',       '3.1.9' # https://www.railstutorial.org/book/modeling_users#code-bcrypt_ruby
 gem 'bootstrap-sass',       '3.2.0.0'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
