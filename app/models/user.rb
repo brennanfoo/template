@@ -7,5 +7,5 @@ class User < ActiveRecord::Base
                     uniqueness: { case_sensitive: false }
 
   has_secure_password # https://www.railstutorial.org/book/modeling_users#sec-a_hashed_password
-  validates :password, presence: true, length: { minimum: 6 }
+  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true;
 end
